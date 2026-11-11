@@ -1,0 +1,11 @@
+node_modules
+.env
+*.db
+*.db-wal
+*.db-shm
+storage/
+uploads/*
+!uploads/.gitkeep
+data/.spot-sample.json
+docs/.ui-*.json
+.DS_Store

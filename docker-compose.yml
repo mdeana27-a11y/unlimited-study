@@ -1,0 +1,10 @@
+# NOT TESTED in the authoring environment. SQLite lives in the `study-data` volume (back it up!).
+services:
+  app:
+    build: .
+    env_file: .env
+    environment: { STORAGE_DIR: /data, NODE_ENV: production }
+    ports: ["3000:3000"]
+    volumes: ["study-data:/data"]
+    restart: unless-stopped
+volumes: { study-data: {} }

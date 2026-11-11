@@ -1,0 +1,183 @@
+{
+ "pages": [
+  {
+   "name": "login dark mobile ar",
+   "axeViolations": [],
+   "axePasses": 40,
+   "contrastNeedsManualReview": 13,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "login dark desktop ar",
+   "axeViolations": [],
+   "axePasses": 40,
+   "contrastNeedsManualReview": 16,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "dashboard dark mobile ar",
+   "axeViolations": [],
+   "axePasses": 32,
+   "contrastNeedsManualReview": 52,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "subject dark mobile ar",
+   "axeViolations": [],
+   "axePasses": 35,
+   "contrastNeedsManualReview": 11,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "dashboard dark desktop ar",
+   "axeViolations": [],
+   "axePasses": 33,
+   "contrastNeedsManualReview": 29,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "subject dark desktop ar",
+   "axeViolations": [],
+   "axePasses": 35,
+   "contrastNeedsManualReview": 13,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "admin overview dark mobile ar",
+   "axeViolations": [],
+   "axePasses": 39,
+   "contrastNeedsManualReview": 9,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "admin overview dark desktop ar",
+   "axeViolations": [],
+   "axePasses": 39,
+   "contrastNeedsManualReview": 13,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "admin activity dark desktop ar",
+   "axeViolations": [],
+   "axePasses": 44,
+   "contrastNeedsManualReview": 57,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "admin content dark desktop ar",
+   "axeViolations": [],
+   "axePasses": 40,
+   "contrastNeedsManualReview": 7,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "login light mobile ar",
+   "axeViolations": [],
+   "axePasses": 40,
+   "contrastNeedsManualReview": 13,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "login light desktop ar",
+   "axeViolations": [],
+   "axePasses": 40,
+   "contrastNeedsManualReview": 16,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "dashboard light mobile ar",
+   "axeViolations": [],
+   "axePasses": 32,
+   "contrastNeedsManualReview": 52,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "subject light mobile ar",
+   "axeViolations": [],
+   "axePasses": 35,
+   "contrastNeedsManualReview": 11,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "dashboard light desktop ar",
+   "axeViolations": [],
+   "axePasses": 33,
+   "contrastNeedsManualReview": 29,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "subject light desktop ar",
+   "axeViolations": [],
+   "axePasses": 35,
+   "contrastNeedsManualReview": 13,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "admin overview light mobile ar",
+   "axeViolations": [],
+   "axePasses": 39,
+   "contrastNeedsManualReview": 9,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "admin overview light desktop ar",
+   "axeViolations": [],
+   "axePasses": 39,
+   "contrastNeedsManualReview": 13,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "admin activity light desktop ar",
+   "axeViolations": [],
+   "axePasses": 44,
+   "contrastNeedsManualReview": 57,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "admin content light desktop ar",
+   "axeViolations": [],
+   "axePasses": 40,
+   "contrastNeedsManualReview": 7,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  },
+  {
+   "name": "login dark desktop en",
+   "axeViolations": [],
+   "axePasses": 40,
+   "contrastNeedsManualReview": 15,
+   "horizontalOverflowPx": 0,
+   "consoleErrors": []
+  }
+ ],
+ "notes": [
+  "SSE: new activity row appeared live without reload: PASS"
+ ],
+ "reducedMotion": {
+  "auroraAnimationDuration": "0s",
+  "infiniteAnimationsRunning": 0,
+  "cardTransform": "none"
+ },
+ "motionControl": {
+  "auroraAnimationDuration": "22s"
+ }
+}

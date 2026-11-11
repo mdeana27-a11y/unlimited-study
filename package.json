@@ -1,0 +1,44 @@
+{
+  "name": "unlimited-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unlimited Study (\u062f\u0631\u0627\u0633\u0629 \u0628\u0644\u0627 \u062d\u062f\u0648\u062f) \u2014 study platform for Data Science students. By Mostafa Apo Soliman.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "build": "node scripts/build-client.js",
+    "start": "node server/index.js",
+    "seed": "node scripts/seed.js",
+    "extract": "python3 scripts/extract-roster.py",
+    "test": "vitest run",
+    "screenshots": "node scripts/screenshots.js"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
+    "argon2": "^0.45.2",
+    "chart.js": "^4.6.1",
+    "cookie-parser": "^1.4.7",
+    "csv-parse": "^7.0.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.3",
+    "google-auth-library": "^11.3.3",
+    "gsap": "^3.15.1",
+    "helmet": "^8.3.0",
+    "multer": "^2.5.0",
+    "pino": "^10.4.0",
+    "pino-http": "^11.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@sparticuz/chromium": "^153.0.0",
+    "axe-core": "^4.14.0",
+    "playwright-core": "^1.64.1",
+    "supertest": "^7.3.1",
+    "tailwindcss": "^3.4.19",
+    "vitest": "^5.1.0"
+  }
+}
